@@ -14,6 +14,12 @@ var sayHi = function () {
     console.log("hey");
 };
 sayHi();
+// oggeto normalw
+// let franco = {
+//     name: "Franco",
+//     age: 34,
+// }
+// per far così che questo oggetto aderisca ai type di personINterface, ci basta dare come type a franco la person Interface
 var franco = {
     name: "Franco",
     age: 34,

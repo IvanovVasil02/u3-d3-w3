@@ -26,12 +26,19 @@ const sayHi = ()=>{
 sayHi();
 
 // interface definisce un oggetto e di ciò di cui ha bisogno per essere usato prima di assegnarli dei valori
-interface person {
+interface PersonInterface {
     name: string;
     age: number;
 }
 
-let franco = {
+// oggeto normalw
+// let franco = {
+//     name: "Franco",
+//     age: 34,
+// }
+
+// per far così che questo oggetto aderisca ai type di personINterface, ci basta dare come type a franco la person Interface
+let franco:  PersonInterface = {
     name: "Franco",
     age: 34,
-}
+}    
